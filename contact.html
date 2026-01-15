@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="shortcut icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+  <title>Steve Charles Electrical Ltd</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <p>Steve Charles Electrical Ltd </p>
+        <div class="social-icons">
+       <a href="https://www.facebook.com/p/Steve-Charles-Electrical-Ltd-100063570610785/" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/steve_charles_electrical_ltd/" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram"></a></div>
+      </div>
+       <button class="nav-toggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="creditations.html" class="active">Accreditations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+
+      </ul>
+    </div>
+  </nav>
+   </header>
+
+  <!-- HERO -->
+   <header class="hero" style="background-image: url('Tools.jpeg');">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h1><img src="logo1 copy.png" alt="logo" ></h1>
+        <h1>Contact</h1>
+        <h1>Steve Charles Electrical Ltd</h1>
+        <p>Get in touch for a free quote or to discuss your electrical project.</p>
+      </div>
+    </div>
+    </header>
+
+
+
+   <section class="contact-section"> 
+   <div class="contact-container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>If you’d like a quote, have a question, or want to book a job, fill out the form and we’ll get back to you promptly.</p>
+
+      <ul>
+        <li><strong>📍 Address:</strong> St Albans, Hertfordshire</li>
+        <li><strong>📞 Phone:</strong> 01727 400 014</li>
+        <li><strong>📧 Email:</strong> info@stevecharleselectrical.co.uk</li>
+      </ul>
+    </div>
+
+    <!-- Form -->
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/xzzjnqnn" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <select name="package" required>
+        <option value="">Select a Service</option>
+        <option value="domestic">Domestic Service</option>
+        <option value="commercial">Commercial Service</option>
+        <option value="block">Block Management Service</option>
+        <option value="other">Other</option>
+        
+      </select>
+        <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+
+  </div>
+</section>
+
+  <!-- FOOTER -->
+   <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2025 Steve Charles Electrical Ltd. All rights reserved. Designed By </p>
+       <a href="https://designwithreb.com/" target="_blank" rel="noopener noreferrer">
+      Design With Reb
+    </a>
+    <p>☎️ 01727 400 014 — info@stevecharleselectrical.co.uk</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/p/Steve-Charles-Electrical-Ltd-100063570610785/" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/steve_charles_electrical_ltd/" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('.nav-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+</body>
+
+</html>

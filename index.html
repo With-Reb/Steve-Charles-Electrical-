@@ -1,89 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Electricians St Albans | Under Construction</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #333;
-    }
-
-    .container {
-      max-width: 500px;
-      padding: 2rem;
-      background: #fff;
-      border-radius: 1.5rem;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      font-size: 2rem;
-      color: #0077b6;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      font-size: 1rem;
-      margin-bottom: 1.5rem;
-      color: #555;
-    }
-
-    .icon {
-      font-size: 3rem;
-      color: #fcbf49;
-      margin-bottom: 1rem;
-    }
-
-    .contact {
-      font-size: 0.95rem;
-      color: #0077b6;
-    }
-
-    .contact a {
-      color: #0077b6;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .contact a:hover {
-      text-decoration: underline;
-    }
-     form {
-      max-width: 500px; margin: 0 auto;
-      display: flex; flex-direction: column; gap: 1rem;
-      color: #0077b6;
-   }
-  </style>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="shortcut icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+  <title>Steve Charles Electrical Ltd</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+
+   <header class="site-header">
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <p>Steve Charles Electrical Ltd </p>
+        <div class="social-icons">
+        <a href="https://www.facebook.com/p/Steve-Charles-Electrical-Ltd-100063570610785/" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/steve_charles_electrical_ltd/" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram"></a></div>
+      </div>
+       <button class="nav-toggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="creditations.html" class="active">Accreditations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+
+      </ul>
+    </div>
+  </nav>
+   </header>
+
+  <!-- HERO SECTION -->
+   <header class="hero" data-bg="Paul2.jpeg">
+    <div class="hero-overlay">
+      <div class="container hero-content" data-aos="fade-up">
+        <h1><img src="logo1 copy.png" class="logo" alt="logo" ></h1>
+        <h1>Reliable electricians for homes and businesses</h1>
+        <p>Installations, rewires, inspections and fast callouts by a professional team you can trust.</p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn">Our Services</a>
+          <a href="contact.html" class="btn">Get a Quote</a>
+           <a href="tel:01727400014" class="btn">☎️ Call Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+ <section class="about-section">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p>Steve Charles Electrical Ltd began with Steve working independently across the local area, building a reputation through straightforward, reliable work. What started with one person and a toolkit quickly became a trusted name known for clear communication, tidy results, and turning up when promised.
+
+As demand grew, so did the team. Skilled electricians and engineers joined over time, each bringing the same commitment to doing the job properly and respecting every home or workplace they enter.
+
+Today, the company handles everything from small domestic callouts to full commercial installations. We specialise in fire alarm systems, AOV (Automatic Opening Vent) installations, electric vehicle chargers, and all general electrical work — delivered with the same practical, honest approach the business was built on.
+
+Our focus remains simple: work safely, stay reliable, and leave every space better than we found it.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+ <section id="services" class="section services">
   <div class="container">
-    <img src="electricianstalbans.co.uk_--_90495433.jpg" alt="Steve Charles Electrical Logo" style="max-width: 200px; margin-bottom: 1rem;">
-    <div class="icon">⚡</div>
-    <h1>We’re Powering Something New!</h1>
-    <p>Our website is currently under construction while we bring you a brighter, faster experience.</p>
-    <p class="contact">Need an electrician in the meantime?<br>
-      Call us on <a href="tel:01727 400014">01727 400014</a> or email <a href="mailto:info@stevecharleselectrical.co.uk">info@stevecharleselectrical.co.uk</a>  
-    <a>Or Contact Us Below:</a>
-    <form class="contact-form" action="https://formspree.io/f/xzzjnqnn" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-      <button type="submit" class="btn-primary">Send Message</button>
-    </form> 
-    </p>
+    <h2>Popular Services</h2>
+
+    <div class="services-grid">
+
+      <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('Bedroom.jpg');"></div>
+        <div class="card-overlay">Light & socket installations</div>
+      </a>
+
+       <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('Cable.jpeg');"></div>
+        <div class="card-overlay">Full & partial rewires</div>
+       </a>
+
+        <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('Board.jpeg');"></div>
+        <div class="card-overlay">Consumer unit upgrades</div>
+        </a>
+
+      <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('EICR.jpg');"></div>
+        <div class="card-overlay"> Landlord / EICR inspections</div>
+      </a>
+
+      <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('4 copy.png');"></div>
+        <div class="card-overlay">Exterior lighting & power</div>
+      </a>
+
+      <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('AOV.jpeg');"></div>
+        <div class="card-overlay"> AOV Installations and Maintenance</div>
+      </a>
+
+       <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('Emg copy.png');"></div>
+        <div class="card-overlay"> Emergency Lighting Installations and Maintenance</div>
+      </a>
+
+      <a href="services.html" class="service-card">
+        <div class="card-image" style="background-image:url('Smoke.jpeg');"></div>
+        <div class="card-overlay"> Fire and Smoke Alarm Installations</div>
+      </a>
+
+    </div>
   </div>
+</section>
+
+  <!-- PORTFOLIO SECTION -->
+ <section id="portfolio" class="section portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+
+    <div class="slideshow" aria-roledescription="carousel" aria-label="Project portfolio slideshow">
+      <div class="slides" role="list">
+        <div class="slide" role="listitem" data-index="0">
+          <img src="Tony.jpeg" alt="Cable installation at Rugby Club">
+        </div>
+        <div class="slide" role="listitem" data-index="1">
+          <img src="AOV.jpeg" alt="AOV system installation project">
+        </div>
+        <div class="slide" role="listitem" data-index="2">
+          <img src="Rugby.jpeg" alt="Commercial site electrical work at Rugby Club">
+        </div>
+        <div class="slide" role="listitem" data-index="3">
+          <img src="Board.jpeg" alt="Consumer unit replacement and testing">
+        </div>
+         <div class="slide" role="listitem" data-index="3">
+          <img src="Bathroom.jpg" alt="Bathroom Lighting in London Home">
+        </div>
+         <div class="slide" role="listitem" data-index="3">
+          <img src="Bedroom.jpg" alt="Bedroom Lighting in London Home">
+        </div>
+         <div class="slide" role="listitem" data-index="3">
+          <img src="GG Wall.jpg" alt="Wall Lights in London Home">
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="sl-prev" aria-label="Previous slide">&lsaquo;</button>
+      <button class="sl-next" aria-label="Next slide">&rsaquo;</button>
+
+      <!-- Thumbnails -->
+      <div class="thumbs" role="tablist" aria-label="Slide thumbnails">
+        <button class="thumb" data-index="0" role="tab" aria-selected="false" aria-controls="slide-0">
+          <img src="Tony.jpeg" alt="Thumb 1">
+        </button>
+        <button class="thumb" data-index="1" role="tab" aria-selected="false" aria-controls="slide-1">
+          <img src="AOV.jpeg" alt="Thumb 2">
+        </button>
+        <button class="thumb" data-index="2" role="tab" aria-selected="false" aria-controls="slide-2">
+          <img src="Rugby.jpeg" alt="Thumb 3">
+        </button>
+        <button class="thumb" data-index="3" role="tab" aria-selected="false" aria-controls="slide-3">
+          <img src="Board.jpeg" alt="Thumb 4">
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX (placed near end of body) -->
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="lightbox-backdrop" tabindex="-1"></div>
+  <div class="lightbox-content" role="document">
+    <button class="lb-close" aria-label="Close (Esc)">✕</button>
+    <button class="lb-prev" aria-label="Previous">◀</button>
+    <figure>
+      <img src="" alt="" id="lightbox-image">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next">▶</button>
+  </div>
+</div>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2025 Steve Charles Electrical Ltd. All rights reserved. Designed By </p>
+       <a href="https://designwithreb.com/" target="_blank" rel="noopener noreferrer">
+      Design With Reb
+    </a>
+    <p>☎️ 01727 400 014 — info@stevecharleselectrical.co.uk</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/p/Steve-Charles-Electrical-Ltd-100063570610785/" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/steve_charles_electrical_ltd/" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+<script>
+document.querySelectorAll('.hero').forEach(h => {
+  const img = h.getAttribute('data-bg');
+  if(img) h.style.backgroundImage = `url('${img}')`;
+});
+</script>
+
+<script>
+const slides = document.querySelectorAll(".slide");
+const prevBtn = document.querySelector(".prev");
+const nextBtn = document.querySelector(".next");
+const dotsContainer = document.querySelector(".dots");
+
+let currentSlide = 0;
+
+/* Create navigation dots */
+slides.forEach((_, i) => {
+  const dot = document.createElement("span");
+  dot.addEventListener("click", () => goToSlide(i));
+  dotsContainer.appendChild(dot);
+});
+const dots = dotsContainer.querySelectorAll("span");
+
+/* Update slides + dots */
+function updateSlide() {
+  slides.forEach((s, i) => s.classList.toggle("active", i === currentSlide));
+  dots.forEach((d, i) => d.classList.toggle("active-dot", i === currentSlide));
+}
+
+/* Navigation */
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % slides.length;
+  updateSlide();
+}
+function prevSlide() {
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  updateSlide();
+}
+function goToSlide(i) {
+  currentSlide = i;
+  updateSlide();
+}
+
+/* Button actions */
+nextBtn.addEventListener("click", nextSlide);
+prevBtn.addEventListener("click", prevSlide);
+
+/* Init */
+updateSlide();
+</script>
+
+<script>
+(function(){
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const prevBtn = document.querySelector('.sl-prev');
+  const nextBtn = document.querySelector('.sl-next');
+  const thumbs = Array.from(document.querySelectorAll('.thumb'));
+  const slideshow = document.querySelector('.slideshow');
+  const intervalMs = 6000;
+  let current = 0;
+  let timer = null;
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Set ids and aria
+  slides.forEach((s,i) => {
+    s.id = `slide-${i}`;
+    s.setAttribute('aria-hidden', i===0 ? 'false' : 'true');
+    if(i===0) s.classList.add('is-active');
+  });
+
+  thumbs.forEach((t,i) => {
+    t.setAttribute('tabindex', '0');
+    t.setAttribute('aria-selected', i===0 ? 'true' : 'false');
+  });
+
+  function showSlide(index, userTriggered = false) {
+    if(index < 0) index = slides.length - 1;
+    if(index >= slides.length) index = 0;
+    slides.forEach((s,i) => {
+      const active = i === index;
+      s.classList.toggle('is-active', active);
+      s.setAttribute('aria-hidden', active ? 'false' : 'true');
+    });
+    thumbs.forEach((t,i) => {
+      const sel = i === index;
+      t.setAttribute('aria-selected', sel ? 'true' : 'false');
+    });
+    current = index;
+    if(userTriggered) restartTimer();
+  }
+
+  function next() { showSlide(current + 1, true); }
+  function prev() { showSlide(current - 1, true); }
+
+  // Auto-slide
+  function startTimer(){
+    if(prefersReducedMotion) return;
+    if(timer) clearInterval(timer);
+    timer = setInterval(next, intervalMs);
+  }
+  function stopTimer(){ if(timer) { clearInterval(timer); timer = null; } }
+  function restartTimer(){ stopTimer(); startTimer(); }
+
+  // Buttons
+  nextBtn.addEventListener('click', next);
+  prevBtn.addEventListener('click', prev);
+
+  // Thumbnails
+  thumbs.forEach(t => {
+    t.addEventListener('click', () => showSlide(Number(t.dataset.index), true));
+    t.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showSlide(Number(t.dataset.index), true); }
+    });
+  });
+
+  // Pause on hover/focus
+  [slideshow, ...thumbs].forEach(el => {
+    el.addEventListener('mouseenter', stopTimer);
+    el.addEventListener('focusin', stopTimer);
+    el.addEventListener('mouseleave', startTimer);
+    el.addEventListener('focusout', restartTimer);
+  });
+
+  // Keyboard navigation (when carousel is focused)
+  slideshow.addEventListener('keydown', (e) => {
+    if(['ArrowRight','ArrowLeft','ArrowUp','ArrowDown'].includes(e.key)) e.preventDefault();
+    if(e.key === 'ArrowRight' || e.key === 'ArrowDown') next();
+    if(e.key === 'ArrowLeft' || e.key === 'ArrowUp') prev();
+  });
+  // Make slideshow keyboard-focusable
+  slideshow.setAttribute('tabindex', '0');
+
+  // Lightbox
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightbox-image');
+  const lbCaption = document.getElementById('lightbox-caption');
+  const lbClose = document.querySelector('.lb-close');
+  const lbPrev = document.querySelector('.lb-prev');
+  const lbNext = document.querySelector('.lb-next');
+
+  function openLightbox(index) {
+    const slide = slides[index];
+    const img = slide.querySelector('img');
+    lbImg.src = img.src;
+    lbImg.alt = img.alt || '';
+    lbCaption.textContent = img.alt || '';
+    lb.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    showSlide(index); // sync
+    lbClose.focus();
+    stopTimer();
+  }
+  function closeLightbox() {
+    lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+    slideshow.focus();
+    restartTimer();
+  }
+
+  // open on click
+  slides.forEach((s,i) => {
+    s.addEventListener('click', () => openLightbox(i));
+    // keyboard open when focused and Enter/Space pressed
+    s.setAttribute('tabindex','0');
+    s.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(i); }
+    });
+  });
+
+  // Lightbox controls
+  lbClose.addEventListener('click', closeLightbox);
+  lbPrev.addEventListener('click', () => { showSlide(current - 1); openLightbox(current); });
+  lbNext.addEventListener('click', () => { showSlide(current + 1); openLightbox(current); });
+
+  // close on backdrop click
+  document.querySelector('.lightbox-backdrop').addEventListener('click', closeLightbox);
+
+  // keyboard for lightbox
+  document.addEventListener('keydown', (e) => {
+    if(lb.getAttribute('aria-hidden') === 'false') {
+      if(e.key === 'Escape') closeLightbox();
+      if(e.key === 'ArrowRight') { showSlide(current + 1); openLightbox(current); }
+      if(e.key === 'ArrowLeft') { showSlide(current - 1); openLightbox(current); }
+    }
+  });
+
+  // Swipe support for slides
+  (function addSwipe(el, onLeft, onRight) {
+    let startX = 0, startY = 0, startTime = 0;
+    const threshold = 40; // px
+    el.addEventListener('touchstart', e => {
+      const t = e.touches[0];
+      startX = t.clientX; startY = t.clientY; startTime = Date.now();
+    }, {passive:true});
+    el.addEventListener('touchend', e => {
+      const t = (e.changedTouches && e.changedTouches[0]) || {};
+      const dx = t.clientX - startX;
+      const dy = t.clientY - startY;
+      const dt = Date.now() - startTime;
+      if(Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > threshold && dt < 600) {
+        if(dx < 0) onLeft();
+        else onRight();
+      }
+    });
+  })(document.querySelector('.slides'), next, prev);
+
+  // Init
+  showSlide(0);
+  startTimer();
+})();
+</script>
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('.nav-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
